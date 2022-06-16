@@ -1,22 +1,14 @@
-# hopper
+# bot-stumble
+Push Rank Stumble Guys
 
-**index.js**
-Auto register dengan SMSHUB / SMS RU menggunakan email random
-
-**index_delete.js**
-Auto register dengan SMSHUB menggunakan email random, setelah register akun tersebut akan dihapus, lalu nomor tersebut dapat digunakan kembali(fresh akun)
-
-**auto_trick.js**
-Auto register dengan SMSHUB / SMS RU menggunakan gmail dotrick
-
-**manual.js**
-Manual register dengan request email dan nomor (fisik / non fisik)
-
-**manual_delete.js**
-Manual register dengan request nomor (fisik/non fisik), setelah berhasil register akun tersebut akan dihapus, lalu nomor tersebut dapat digunakan kembali(fresh akun)
-
-**getReff.js**
-Mendapatkan kode referral akun yang sudah dibuat / belum dibuat
-
-**cekSaldo.js**
-Cek cash carrot akun yang sudah dibuat
+# Cara Jalanin
+ - install Http Canary di HP, jalanin Http Canary nya. Terus mainin Stumble Guys sampe juara 1 atau minimal masuk ronde 3
+ - $ pkg install python3 (skip aja kalo udah)
+ - $ git clone https://github.com/revan-ar/bot-stumble
+ - $ copy authorization dari Http Canary (cek file auth.txt buat contohnya)
+ - paste authorization ke file auth.txt
+ - $ cd bot-stumble
+ - $ python3 push_rank.py
+ 
+ # NB:
+ jangan tutup aplikasi stumble ketika jalanin botnya
